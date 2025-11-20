@@ -16,8 +16,6 @@
         "slide_ceCMAF": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/website_header_design-1.png",
-            "mobile_image": "shopify://shop_images/Convenient_to_Grab_Go_-1.png",
             "subheading": "",
             "title": "",
             "text": "",
@@ -34,8 +32,6 @@
         "template--15982907982024__f054f6ff-48c0-4280-9dee-493fc46085a6-1676882263e01f796f-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Section_Hero.png",
-            "mobile_image": "shopify://shop_images/Group_96907.png",
             "subheading": "",
             "title": "",
             "text": "",
@@ -53,8 +49,6 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/HP_New_Powder.png",
-            "mobile_image": "shopify://shop_images/HP_New_Powder_Mobile.png",
             "subheading": "",
             "title": "",
             "text": "",
@@ -71,8 +65,6 @@
         "b078f6a6-b1e2-4285-82a3-fc9fc6f7dea3": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Lyte_HP_New_Palm-Electrolytes.png",
-            "mobile_image": "shopify://shop_images/Lyte_HP_Mobile2_3de85c8f-b4a2-4e1e-aed4-d93ba64dfb0b.png",
             "subheading": "",
             "title": "",
             "text": "",
@@ -110,33 +102,23 @@
       "blocks": {
         "dd28982e-cfe5-457a-8c23-b5040a0a1b6a": {
           "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Group_-26_e8d9c487-feb3-4b05-97ab-cabc952d5eaa.png"
-          }
+          "settings": {}
         },
         "abfda60a-ab2f-460a-94e4-c8663928e2ff": {
           "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Group_-27_e33847a8-7ec1-43c1-b09c-0e7f03177e44.png"
-          }
+          "settings": {}
         },
         "2596e78c-d9ca-4b91-bf77-a494b1e534ff": {
           "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Group_-28_58a78092-42f5-430a-b679-0824ec8b033d.png"
-          }
+          "settings": {}
         },
         "af098021-70ac-4ef9-8ca3-cd09512b56d6": {
           "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Group_-29_6be8c4aa-e53b-4adc-8b2c-1d2ea297909c.png"
-          }
+          "settings": {}
         },
         "37764f64-fe56-4a3f-b99b-b4385cab3082": {
           "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Group_-30_73a76000-b5e1-4708-a17e-79a87b99be1f.png"
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -187,9 +169,7 @@
         "grid": 3,
         "rows": 1,
         "hide_add_to_cart": false,
-        "show_view_all": false,
-        "accent_image": "shopify://shop_images/Mask_Group_208_ef0c36df-0248-4b5e-9474-25a9e657339a.png",
-        "mobile_accent_image": "shopify://shop_images/Mask_Group_204.png"
+        "show_view_all": false
       }
     },
     "6ed2dedd-60f5-46aa-8dd7-ed76764f1c25": {
@@ -217,9 +197,7 @@
       ],
       "settings": {
         "image-width": "extra-large",
-        "image": "shopify://shop_images/e-Berrifit_3_8_23_Kaykreative-135-sq.jpg",
         "layout": "right",
-        "logo_image": "shopify://shop_images/Group_96905.png",
         "subheading": "",
         "title": "ACTIVE HYDRATION",
         "text_block": "<p>Stay hydrated and active while also giving your taste buds a delicious plant-based boost.</p>",
@@ -236,7 +214,6 @@
         "template--15982907982024__4730e7b2-7089-4b54-800f-1fc6bbcd286e-16768844368d9c9c62-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Group_-34.png",
             "link": "",
             "title": "Less \nSugar*",
             "description": ""
@@ -245,7 +222,6 @@
         "template--15982907982024__4730e7b2-7089-4b54-800f-1fc6bbcd286e-16768844368d9c9c62-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Group_-33.png",
             "link": "",
             "title": "Powerful \nElectrolytes",
             "description": ""
@@ -254,7 +230,6 @@
         "template--15982907982024__4730e7b2-7089-4b54-800f-1fc6bbcd286e-16768844368d9c9c62-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Group_-32_0410c169-3dfa-4d01-bfb2-12245c2b62d9.png",
             "link": "",
             "title": "Deliciously\nHydrating",
             "description": ""
@@ -263,7 +238,6 @@
         "79d562f6-eb6a-4b2a-a083-7a8ef33243f0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Group_-35.png",
             "link": "",
             "title": "Fewer \nCalories*",
             "description": ""
@@ -300,9 +274,7 @@
       ],
       "settings": {
         "image-width": "extra-large",
-        "image": "shopify://shop_images/e-Berrilyte_3_8_23_Kaykreative-125-cropped.jpg",
         "layout": "left",
-        "logo_image": "shopify://shop_images/Group_96904.png",
         "subheading": "",
         "title": "Rapid Response  Hydration",
         "text_block": "<p>Journey back to healthy for you and your little ones with our tasty and organic oral electrolytes.</p>",
@@ -319,7 +291,6 @@
         "template--15982907982024__6f7bf503-ac38-4363-93ec-37a00c63a52f-16768844368d9c9c62-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Group_-39.png",
             "link": "",
             "title": "Plant-Based",
             "description": ""
@@ -328,7 +299,6 @@
         "template--15982907982024__6f7bf503-ac38-4363-93ec-37a00c63a52f-16768844368d9c9c62-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Group_96301.png",
             "link": "",
             "title": "Pediatrician Approved",
             "description": ""
@@ -337,7 +307,6 @@
         "template--15982907982024__6f7bf503-ac38-4363-93ec-37a00c63a52f-16768844368d9c9c62-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Group_-32.png",
             "link": "",
             "title": "Proven to Hydrate",
             "description": ""
@@ -346,7 +315,6 @@
         "5a9138c1-ee84-4450-b1ab-cc249a1bbaf6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Group_-41.png",
             "link": "",
             "title": "Tastes Great",
             "description": ""
@@ -379,24 +347,21 @@
           "type": "featured_collection",
           "settings": {
             "collection": "berri-lyte-advanced",
-            "title": "",
-            "image": "shopify://shop_images/e-Berrilyte_3_8_23_Kaykreative-207-zoomed.jpg"
+            "title": ""
           }
         },
         "collection-list-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "berri-lyte-drinks",
-            "title": "",
-            "image": "shopify://shop_images/e-Berrilyte_3_8_23_Kaykreative-145-zoomed.jpg"
+            "title": ""
           }
         },
         "collection-list-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "berri-fit-drinks",
-            "title": "",
-            "image": "shopify://shop_images/e-Berrifit_3_8_23_Kaykreative-66-zoomed.jpg"
+            "title": ""
           }
         }
       },
@@ -412,9 +377,7 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "FEATURED COLLECTIONS",
-        "accent_image": "shopify://shop_images/Mask_Group_208_ef0c36df-0248-4b5e-9474-25a9e657339a.png",
-        "mobile_accent_image": "shopify://shop_images/Mask_Group_204_c840dfd1-a8fd-46c4-8422-10d8306d2910.png"
+        "title": "FEATURED COLLECTIONS"
       }
     },
     "e520e068-72e1-4896-9662-31d00d90438c": {
@@ -423,7 +386,6 @@
         "ffe6ef9d-a24c-46f3-8c18-ebe798695d35": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Card_-_Icon_Ingredient.png",
             "title": "GUAVA",
             "text": "<p><strong>Origin:</strong> Organically sourced from South America</p><p><strong>Benefits:</strong> Plant-based source of zinc to help support immune system</p>"
           }
@@ -431,7 +393,6 @@
         "335238e6-708b-4ccf-9af4-ffba7a3461dc": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Card_Active.png",
             "title": "COCONUT WATER",
             "text": "<p><strong>Origin:</strong> Tapped from the center of young coconuts in the Philippines</p><p><strong>Benefits: </strong>Isotonic, hypoallergenic, and all-natural health benefits</p>"
           }
@@ -439,7 +400,6 @@
         "bb4c3675-4617-47b7-89ae-cd34f0fd3828": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Card_-_Icon_Ingredient-1_553e5246-087b-4119-ad16-fa026a5c627c.png",
             "title": "MACA ROOT",
             "text": "<p><strong>Origin:</strong> Hand-selected maca roots harvested in Peru</p><p><strong>Benefits:</strong> Balanced energy and supports faster muscle recovery and healing</p>"
           }
@@ -447,7 +407,6 @@
         "7b4bc076-8e27-41a8-9759-8ac5ac2571ef": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Card_-_Icon_Ingredient-2.png",
             "title": "SWEET POTATO",
             "text": "<p><strong>Origin:</strong> Organically sourced from the U.S.A.</p><p><strong>Benefits:</strong> Provides carbohydrates and fiber and is a healthier alternative to sugar</p>"
           }
@@ -455,7 +414,6 @@
         "ea55280a-d22a-448b-8932-beb29767701b": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Card_-_Icon_Ingredient-3.png",
             "title": "GINSENG ROOT",
             "text": "<p><strong>Origin:</strong> Organically sourced from Canada</p><p><strong>Benefits:</strong> Increased energy, stamina, and focus</p>"
           }
@@ -463,7 +421,6 @@
         "a12927d4-e2dd-4998-9e2f-6634e45a24a6": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Card_-_Icon_Ingredient-4.png",
             "title": "SEA SALT",
             "text": "<p><strong>Origin:</strong> Naturally sourced from the ocean</p><p><strong>Benefits:</strong> Helps the body absorb potassium and prevents muscle pains, spasms, and cramps</p>"
           }
@@ -471,7 +428,6 @@
         "982b1653-0692-4f0f-97e1-9b98ff1f6efc": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Card_-_Icon_Ingredient-5.png",
             "title": "AMLA FRUIT",
             "text": "<p><strong>Origin:</strong> Organically sourced from Asia</p><p><strong>Benefits:</strong> Plant-based source of Vitamin C to help support immune system</p>"
           }
@@ -479,7 +435,6 @@
         "99377474-be85-4592-b16c-edd53414af99": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Card_-_Icon_Ingredient-7.png",
             "title": "MAQUI SUPERBERRIES",
             "text": "<p><strong>Origin:</strong> Organically sourced from Chile</p><p><strong>Benefits:</strong> Increases energy, supports muscle recovery, and reduces fatigue and soreness</p>"
           }
@@ -504,8 +459,7 @@
         "title": "PREMIUM<br>\n<span class=\"stroke-text\">INGREDIENTS</span>",
         "text": "<p>*All flavors and preservatives are sourced naturally from USDA Certified organic suppliers</p>",
         "button_link": "",
-        "button_label": "",
-        "image": "shopify://shop_images/Group_22239_51eeae94-3cba-4b15-a87e-e41eda402440.png"
+        "button_label": ""
       }
     },
     "dc21adaf-201f-46bc-a631-a38af87e8de4": {
@@ -516,9 +470,7 @@
       ],
       "settings": {
         "image-width": "extra-large",
-        "image": "shopify://shop_images/Dana_Farber_da46e8c7-62f0-4c49-8883-12a872d1f24c.jpg",
         "layout": "right",
-        "logo_image": "shopify://shop_images/Dana-Farber_Jimmy_Fund_Logo-edit.png",
         "subheading": "",
         "title": "GIVING BACK",
         "text_block": "<p>For every bottle sold, Berri Organics makes a donation to Wish Upon a Teen and The Jimmy Fund to fight pediatric cancer.</p>",
@@ -550,8 +502,6 @@
       ],
       "settings": {
         "subheading": "Here's what's happening",
-        "accent_image": "shopify://shop_images/Decoration.png",
-        "mobile_accent_image": "shopify://shop_images/Mask_Group_204_c840dfd1-a8fd-46c4-8422-10d8306d2910.png",
         "title": "Berri Blog",
         "show_author_name": false,
         "show_dates": true,
@@ -611,7 +561,6 @@
         "template--16076766937288__0a30e983-3fc7-424c-8cf1-efb04f41de15-1688044743946a24dc-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WF-Logo-2018.png",
             "link": "",
             "title": "",
             "description": ""
@@ -620,7 +569,6 @@
         "template--16076766937288__0a30e983-3fc7-424c-8cf1-efb04f41de15-1688044743946a24dc-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/logo-forbes-png-transparent-11.png",
             "link": "",
             "title": "",
             "description": ""
@@ -648,6 +596,19 @@
         "hide_on_specific_tag": "",
         "show_on_specific_tag": ""
       }
+    },
+    "blog_popular_posts_jzrayr": {
+      "type": "blog--popular-posts",
+      "name": "Popular blog posts",
+      "settings": {
+        "post_limit": 3,
+        "subheading": "",
+        "title": "Popular posts",
+        "show_author_name": false,
+        "show_dates": true,
+        "show_blog_images": true,
+        "imageSize": "square"
+      }
     }
   },
   "order": [
@@ -666,6 +627,7 @@
     "bd2df8ae-830a-45ed-8270-91a0c825f1b7",
     "dcee5284-6efd-4786-91c2-35f185b0912b",
     "64758a1f-c432-4114-a8c6-d2c8fdc27549",
-    "0a30e983-3fc7-424c-8cf1-efb04f41de15"
+    "0a30e983-3fc7-424c-8cf1-efb04f41de15",
+    "blog_popular_posts_jzrayr"
   ]
 }
