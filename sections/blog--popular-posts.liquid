@@ -85,23 +85,39 @@
         </div>
       {% endif %}
 
-      {% comment %} Auto-fetch popular posts if no block specified {% endcomment %}
-      {% unless block %}
+      {% comment %} Auto-fetch popular posts - Primary mode unless block with blog selected {% endcomment %}
+      {% assign should_auto_fetch = true %}
+      {% if block and block.type == 'blog' and block.settings.blog != blank %}
+        {% assign should_auto_fetch = false %}
+      {% endif %}
+
+      {% if should_auto_fetch %}
         {% comment %} Automatically collect all popular articles from all blogs {% endcomment %}
         {% assign all_popular_articles = blank | split: ',' %}
         {% for blog in blogs %}
           {% for article in blog.articles %}
-            {% if article.tags contains 'popular' %}
+            {% assign article_tag_check = false %}
+            {% for tag in article.tags %}
+              {% assign tag_lower = tag | downcase %}
+              {% if tag_lower == 'popular' %}
+                {% assign article_tag_check = true %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            {% if article_tag_check %}
               {% assign all_popular_articles = all_popular_articles | push: article %}
             {% endif %}
           {% endfor %}
         {% endfor %}
 
         {% assign popular_count = all_popular_articles.size %}
-        {% assign display_limit = post_count %}
-        {% if display_limit == 0 or display_limit == blank %}
-          {% assign display_limit = 3 %}
+        {% assign display_limit = 3 %}
+        {% if section.settings.post_limit and section.settings.post_limit > 0 %}
+          {% assign display_limit = section.settings.post_limit %}
+        {% elsif post_count > 0 %}
+          {% assign display_limit = post_count %}
         {% endif %}
+        
         {% if popular_count == 0 %}
           <div class="row">
             {% for i in (1..display_limit) %}
@@ -185,9 +201,9 @@
             {% endfor %}
           </div>
         {% endif %}
-      {% endunless %}
+      {% endif %}
 
-      {% if block %}
+      {% if should_auto_fetch == false and block %}
       {% case block.type %}
         {% when "article" %}
 
