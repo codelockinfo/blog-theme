@@ -1,1 +1,61 @@
-{"sections":{"main":{"type":"template--page","disabled":true,"custom_css":[".title-bar {text-align: center;}"],"settings":{}},"8b9180a9-0585-401b-99b8-3fb918395398":{"type":"advanced-layout--custom-html","blocks":{"template--16006202851528__8b9180a9-0585-401b-99b8-3fb918395398-167800993147e819fe-0":{"type":"html","settings":{"code":"","width":"100%"}}},"block_order":["template--16006202851528__8b9180a9-0585-401b-99b8-3fb918395398-167800993147e819fe-0"],"settings":{}},"a44ddcbc-6f85-42ec-b2f3-598b3ed1f384":{"type":"custom-liquid","settings":{"custom_liquid":"<style>\n#main{\nposition: relative;\n}\n#shopify-section-{{section.id}} .accent-image{\nposition: absolute;\ntop: 0;\nleft: 0;\nz-index: -1\n}\n\n@media screen and (max-width: 768px){\n#shopify-section-{{section.id}} .accent-image{\ndisplay: none;\n}\n}\n<\/style>\n\n<div class=\"accent-image\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2227\/4617\/files\/Mask_Group_217.png?v=1678010102\">\n<\/div>"}},"text_rich_text_qctLpy":{"type":"text--rich-text","settings":{"image":"shopify:\/\/shop_images\/1.png","width":"full-width","subheading":"","title":"","text":"<h1>Store Locator<\/h1><p>Find Us in Select Retailers below:<\/p>","button_link":"","button_label":""}}},"order":["main","8b9180a9-0585-401b-99b8-3fb918395398","a44ddcbc-6f85-42ec-b2f3-598b3ed1f384","text_rich_text_qctLpy"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "custom_css": [
+        ".title-bar {text-align: center;}"
+      ],
+      "settings": {}
+    },
+    "8b9180a9-0585-401b-99b8-3fb918395398": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--16006202851528__8b9180a9-0585-401b-99b8-3fb918395398-167800993147e819fe-0": {
+          "type": "html",
+          "settings": {
+            "code": "",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--16006202851528__8b9180a9-0585-401b-99b8-3fb918395398-167800993147e819fe-0"
+      ],
+      "settings": {}
+    },
+    "a44ddcbc-6f85-42ec-b2f3-598b3ed1f384": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n#main{\nposition: relative;\n}\n#shopify-section-{{section.id}} .accent-image{\nposition: absolute;\ntop: 0;\nleft: 0;\nz-index: -1\n}\n\n@media screen and (max-width: 768px){\n#shopify-section-{{section.id}} .accent-image{\ndisplay: none;\n}\n}\n</style>\n\n<div class=\"accent-image\">\n<img src=\"https://cdn.shopify.com/s/files/1/2227/4617/files/Mask_Group_217.png?v=1678010102\">\n</div>"
+      }
+    },
+    "text_rich_text_qctLpy": {
+      "type": "text--rich-text",
+      "settings": {
+        "image": "shopify://shop_images/1.png",
+        "width": "full-width",
+        "subheading": "",
+        "title": "",
+        "text": "<h1>Store Locator</h1><p>Find Us in Select Retailers below:</p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8b9180a9-0585-401b-99b8-3fb918395398",
+    "a44ddcbc-6f85-42ec-b2f3-598b3ed1f384",
+    "text_rich_text_qctLpy"
+  ]
+}
