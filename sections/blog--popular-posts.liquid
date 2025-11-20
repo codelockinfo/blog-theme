@@ -98,18 +98,36 @@
         {% endfor %}
 
         {% assign popular_count = all_popular_articles.size %}
+        {% assign display_limit = post_count %}
+        {% if display_limit == 0 or display_limit == blank %}
+          {% assign display_limit = 3 %}
+        {% endif %}
         {% if popular_count == 0 %}
           <div class="row">
-            {% for i in (1..post_count) %}
+            {% for i in (1..display_limit) %}
               {{ placeholder-blog-post }}
             {% endfor %}
           </div>
         {% else %}
+          {% assign actual_display_count = popular_count %}
+          {% if actual_display_count > display_limit %}
+            {% assign actual_display_count = display_limit %}
+          {% endif %}
+          {%- capture auto_post_count_grid -%}
+            {%- case actual_display_count -%}
+              {%- when 1 -%}
+                col-sm-6 offset-sm-3
+              {%- when 2 -%}
+                col-sm-6
+              {%- when 3 -%}
+                col-sm-4
+              {%- when 4 -%}
+                col-md-3
+              {%- else -%}
+                col-md-3
+            {%- endcase -%}
+          {%- endcapture -%}
           <div class="row grid--blog">
-            {% assign display_limit = post_count %}
-            {% if display_limit == 0 %}
-              {% assign display_limit = 4 %}
-            {% endif %}
             {% for article in all_popular_articles limit: display_limit %}
               {% assign section-id = '.featured-blog--block--' | append: section.id %}
               {% assign selector = ' .article--background-image--' | append: forloop.index | prepend: section-id %}
@@ -118,7 +136,7 @@
                 {% render 'responsive-background-image--no-formatting' with article.image, alt: article.title, selector: selector %}
               </style>
 
-              <article class="{{ post_count_grid }} wow index-blog-item--wrapper index-blog-item--image---{{ section.settings.imageSize }}">
+              <article class="{{ auto_post_count_grid }} wow index-blog-item--wrapper index-blog-item--image---{{ section.settings.imageSize }}">
                 {% if section.settings.show_blog_images %}
                   {% if article.image %}
                     {% if section.settings.imageSize == 'natural' %}
@@ -351,6 +369,7 @@
               {% endunless %}
             </div>
       {% endcase %}
+      {% endif %}
       </div>
     </div>
   </div>
@@ -684,7 +703,9 @@
                 "fr": "Blog",
                 "pt-PT": "Blog"
             },
-            "settings": {}
+            "settings": {
+                "post_limit": 3
+            }
         }
     ],
     "templates": [
