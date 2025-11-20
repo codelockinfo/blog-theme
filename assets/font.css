@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Good Sans';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/GoodSans-Regular.woff2?v=1676775396') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/IBMPlexSans-Bold.woff2?v=1676775396') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/IBMPlexSans-SemiBold.woff2?v=1676775396') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flama Semicond Basic';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/FlamaCondensed-Basic.woff2?v=1676775396') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flama Condensed';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/FlamaCondensed-Light.woff2?v=1676775396') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/IBMPlexSans-Regular.woff2?v=1676775396') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flama Condensed Book';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/FlamaCondensed-Book.woff2?v=1676773236') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Good Sans';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/GoodSans-Black.woff2?v=1676773236') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Good Sans';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/GoodSans-Medium.woff2?v=1676773236') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flama Condensed';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/FlamaCondensed-Medium.woff2?v=1676775396') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flama Condensed Basic';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/FlamaCondensed-Basic.woff2?v=1676775396') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flama Condensed';
+    src: url('https://cdn.shopify.com/s/files/1/2227/4617/files/FlamaCondensed-Semibold.woff2?v=1676775396') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

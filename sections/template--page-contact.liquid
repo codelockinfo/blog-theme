@@ -1,0 +1,138 @@
+<style>
+  .contact-page-accent-top-image-container{
+    position: absolute;
+    right: 0px;
+        z-index: -1;
+  }
+
+  .contact-page-accent-bottom-image-container{
+        position: absolute;
+    left: -45px;
+    bottom: -180px;
+      z-index: -1;
+  }
+
+  @media screen and (max-width: 768px){
+    .contact-page-accent-top-image-container img{
+      max-width: 100px;
+    }
+
+    .title-bar{
+      text-align: left !important;
+    }
+  }
+</style>
+  <div class="contact-page-accent-top-image-container">
+    <img src="https://cdn.shopify.com/s/files/1/2227/4617/files/Mask_Group_163_d915531e-5f50-4476-b0c3-1c4bc361b25b.png?v=1678103838">
+  </div>
+
+<div id="col-main" class="content container">
+
+
+	<div class="title-bar custom-font">
+		<h1 class="main-heading">{{ page.title }}</h1>
+		<div class="clear"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-8 offset-md-2 col-12">
+
+		{% if page.content != blank %}
+		<div class="contact-page__entry-content entry-content">
+			{{ page.content }}
+		</div>
+		{% endif %}
+
+          {% comment %}
+
+	  {% form 'contact' %}
+
+		<p class="success-msg form-success{% unless form.posted_successfully? %} hide{% endunless %}">
+			{{ 'contact.form.post_success' | t }}
+
+		</p>
+
+		{% render 'form-errors-custom', form: form %}
+
+    <div id="contact-form">
+
+			<div class="row">
+
+				<div class="col-md-6 col-12">
+		      <div class="form-group">
+						<label for="name">{{ 'contact.form.name' | t }}</label>
+						<input type="text"
+							name="contact[name]"
+							id="name"
+							class="form-control"
+							value="{% if customer %}{{ customer.name }}{% endif %}">
+		      </div>
+				</div>
+
+				<div class="col-md-6 col-12">
+		      <div class="form-group">
+						<label for="email">{{ 'contact.form.email' | t }}</label>
+						<input type="email"
+							name="contact[email]"
+							id="email"
+							class="form-control"
+							value="{% if customer %}{{ customer.email }}{% endif %}"
+							spellcheck="false"
+							autocomplete="off"
+							autocapitalize="off">
+		      </div>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="phone">{{ 'contact.form.phone' | t }}</label>
+					  <input type="tel"
+					    name="contact[phone]"
+							class="form-control"
+					    id="phone"
+					    value="{% if customer %}{{ customer.phone }}{% endif %}"
+					    pattern="[0-9\-]*">
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+		      <div class="form-group">
+		        <label for="message">{{ 'contact.form.message' | t }}</label>
+		        <textarea id="message" rows="10" class="form-control" name="contact[body]"></textarea>
+		      </div>
+				</div>
+			</div>
+
+			{{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
+			
+			<div class="row">
+				<div class="col-md-12 btn-contact--wrapper">
+		      <div class="form-group" id="newsletter-wrapper-{{ page.title | handle }}">
+		        <input type="submit" class="btn secondary-button" value="{{ 'contact.form.send' | t }}" />
+		      </div>
+		      <div class="lds-dual-ring newsletter-spinner hide"></div>
+				</div>
+			</div>
+
+    </div>
+
+	  {% endform %}
+
+       {% endcomment %}
+
+          <div style="margin:0 auto;" class="pxFormGenerator" id="ueOBx3u391E7Y-bC1UrWWw"></div>
+
+	  </div>
+	</div>
+
+  
+</div>
+
+<div class="contact-page-accent-bottom-image-container">
+    <img src="https://cdn.shopify.com/s/files/1/2227/4617/files/Mask_Group_163.png?v=1676819525">
+  </div>

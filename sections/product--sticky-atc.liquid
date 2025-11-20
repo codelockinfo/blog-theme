@@ -1,0 +1,63 @@
+<style>
+
+  @media screen and (min-width: 769px){
+    .fixed-mobile-add-to-cart-container{
+      display: none;
+    }
+  }
+  .fixed-mobile-add-to-cart-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: none
+  }
+
+  .fixed-mobile-add-to-cart-container button{
+        width: 100%;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+</style>
+
+{% if product.available %}
+<div class="fixed-mobile-add-to-cart-container">
+  <button id="fixed-mobile-add-to-cart-button" class="btn">{{ 'products.product.add_to_cart' | t }}</button>
+</div>
+{% endif %}
+
+
+<script>
+  $('#fixed-mobile-add-to-cart-button').click(function(e){
+    e.preventDefault();
+    $('.addtocart').trigger('click');
+  })
+
+  $(window).scroll(function() {
+    if($(this).width() > 768){
+      return;
+    }
+    
+   let atcTopPosition = $('.addtocart').offset().top
+   let currentScrollPosition = $(this).scrollTop();
+   if (currentScrollPosition > atcTopPosition){
+       $('.fixed-mobile-add-to-cart-container').show();
+   }else{
+     $('.fixed-mobile-add-to-cart-container').hide();
+   }
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Product Sticky ATC",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
