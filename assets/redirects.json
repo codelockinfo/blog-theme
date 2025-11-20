@@ -1,0 +1,222 @@
+[
+  {
+    "from": "/collections/samplers/products/berrifit-sampler-pack",
+    "to": "/products/berrifit-sampler-pack"
+  },
+  {
+    "from": "/collections/berri-fit-drinks/products/tropical-punch",
+    "to": "/products/tropical-punch"
+  },
+  {
+    "from": "/collections/samplers/products/new-berri-lyte-sampler-3-flavors",
+    "to": "/products/new-berri-lyte-sampler-3-flavors"
+  },
+  {
+    "from": "/collections/berri-fit-drinks/products/mango",
+    "to": "/products/mango"
+  },
+  {
+    "from": "/collections/berri-fit-drinks/products/berrifit-sampler-pack",
+    "to": "/products/berrifit-sampler-pack"
+  },
+  {
+    "from": "/collections/berri-fit-drinks/products/dragon-fruit",
+    "to": "/products/dragon-fruit"
+  },
+  {
+    "from": "/collections/berri-lyte-drinks/products/new-fruit-punch-20oz-size",
+    "to": "/products/new-fruit-punch-20oz-size"
+  },
+  {
+    "from": "/collections/berri-lyte-drinks/products/strawberry",
+    "to": "/products/strawberry"
+  },
+  {
+    "from": "/collections/berri-lyte-drinks/products/elderberry-apple",
+    "to": "/products/elderberry-apple"
+  },
+  {
+    "from": "/collections/berri-lyte-drinks/products/acai-berry",
+    "to": "/products/acai-berry"
+  },
+  {
+    "from": "/collections/all/products/berrifit-sampler-pack",
+    "to": "/products/berrifit-sampler-pack"
+  },
+  {
+    "from": "/collections/berri-lyte-drinks/products/new-berri-lyte-sampler-3-flavors",
+    "to": "/products/new-berri-lyte-sampler-3-flavors"
+  },
+  {
+    "from": "/collections/berri-lyte-drinks/products/advanced-strawberry",
+    "to": "/products/advanced-strawberry"
+  },
+  {
+    "from": "/collections/berri-lyte-drinks/products/cherry",
+    "to": "/products/cherry"
+  },
+  {
+    "from": "/collections/all/products/advanced-strawberry",
+    "to": "/products/advanced-strawberry"
+  },
+  {
+    "from": "/collections/all/products/mango",
+    "to": "/products/mango"
+  },
+  {
+    "from": "/collections/all/products/acai-berry",
+    "to": "/products/acai-berry"
+  },
+  {
+    "from": "/collections/all/products/elderberry-apple",
+    "to": "/products/elderberry-apple"
+  },
+  {
+    "from": "/collections/all/products/dragon-fruit",
+    "to": "/products/dragon-fruit"
+  },
+  {
+    "from": "/collections/all/products/cherry",
+    "to": "/products/cherry"
+  },
+  {
+    "from": "/collections/all/products/new-berri-lyte-sampler-3-flavors",
+    "to": "/products/new-berri-lyte-sampler-3-flavors"
+  },
+  {
+    "from": "/collections/berri-organics/products/cherry",
+    "to": "/products/cherry"
+  },
+  {
+    "from": "/collections/berri-organics/products/tropical-punch",
+    "to": "/products/tropical-punch"
+  },
+  {
+    "from": "/collections/berri-organics/products/advanced-strawberry",
+    "to": "/products/advanced-strawberry"
+  },
+  {
+    "from": "/collections/berri-organics/products/dragon-fruit",
+    "to": "/products/dragon-fruit"
+  },
+  {
+    "from": "/collections/berri-organics/products/acai-berry",
+    "to": "/products/acai-berry"
+  },
+  {
+    "from": "/collections/berri-organics/products/berrifit-sampler-pack",
+    "to": "/products/berrifit-sampler-pack"
+  },
+  {
+    "from": "/collections/berri-organics/products/strawberry",
+    "to": "/products/strawberry"
+  },
+  {
+    "from": "/collections/berri-organics/products/mango",
+    "to": "/products/mango"
+  },
+  {
+    "from": "/collections/berri-lyte-advanced/products/advanced-strawberry",
+    "to": "/products/advanced-strawberry"
+  },
+  {
+    "from": "/collections/berri-organics?page=1",
+    "to": "/collections/berri-organics"
+  },
+  {
+    "from": "/collections/all/products/new-fruit-punch-20oz-size",
+    "to": "/products/new-fruit-punch-20oz-size"
+  },
+  {
+    "from": "/collections/berri-organics/products/new-berri-lyte-sampler-3-flavors",
+    "to": "/products/new-berri-lyte-sampler-3-flavors"
+  },
+  {
+    "from": "/collections/berri-organics/products/new-fruit-punch-20oz-size",
+    "to": "/products/new-fruit-punch-20oz-size"
+  },
+  {
+    "from": "/collections/berri-organics/products/elderberry-apple",
+    "to": "/products/elderberry-apple"
+  },
+  {
+    "from": "/collections/all/products/tropical-punch",
+    "to": "/products/tropical-punch"
+  },
+  {
+    "from": "/collections/all/products/strawberry",
+    "to": "/products/strawberry"
+  },
+  {
+    "from": "/blogs/blog",
+    "to": "/blogs/blog"
+  },
+  {
+    "from": "/products/organic-dragon-fruit",
+    "to": "/products/dragon-fruit"
+  },
+  {
+    "from": "/products/organic-acai",
+    "to": "/products/acai-berry"
+  },
+  {
+    "from": "/products/organic-mango",
+    "to": "/products/mango"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/cherry",
+    "to": "/products/cherry"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/mango",
+    "to": "/products/mango"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/strawberry",
+    "to": "/products/strawberry"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/new-fruit-punch-20oz-size",
+    "to": "/products/new-fruit-punch-20oz-size"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/elderberry-apple",
+    "to": "/products/elderberry-apple"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/new-berri-lyte-sampler-3-flavors",
+    "to": "/products/new-berri-lyte-sampler-3-flavors"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/tropical-punch",
+    "to": "/products/tropical-punch"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/acai-berry",
+    "to": "/products/acai-berry"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/advanced-strawberry",
+    "to": "/products/advanced-strawberry"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/dragon-fruit",
+    "to": "/products/dragon-fruit"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks/products/berrifit-sampler-pack",
+    "to": "/products/berrifit-sampler-pack"
+  },
+  {
+    "from": "/collections/all?page=1",
+    "to": "/collections/all"
+  },
+  {
+    "from": "/blogs/blog?page=1",
+    "to": "/blogs/blog"
+  },
+  {
+    "from": "/collections/berri-pro-fitness-drinks?page=1",
+    "to": "/collections/berri-pro-fitness-drinks"
+  }
+]

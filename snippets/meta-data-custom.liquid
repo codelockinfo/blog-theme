@@ -1,0 +1,11 @@
+{% if request.path contains '/collections/all' %}
+  <title>Shop Organic Electrolyte Drinks & Plant-Based Hydration | Berri</title>
+  <meta name="description" content="Discover Berri’s full collection of organic, plant-based electrolyte drinks. Stay naturally hydrated with clean ingredients, powerful electrolytes, and delicious flavors.">
+{% else %}
+  <title>
+    {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+  </title>
+  {% if page_description %}
+    <meta name="description" content="{{ page_description | escape }}">
+  {% endif %}
+{% endif %}
