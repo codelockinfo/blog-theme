@@ -305,6 +305,30 @@
         "show_blog_images": true,
         "imageSize": "square"
       }
+    },
+    "f7e8d944-8ef5-4f2a-9d3c-07653010841f": {
+      "type": "blog--popular-posts",
+      "blocks": {
+        "b1385aa7-6ce6-5519-cfd3-06664117652g": {
+          "type": "blog",
+          "settings": {
+            "blog": "blog",
+            "post_limit": 3,
+            "show_view_all": false
+          }
+        }
+      },
+      "block_order": [
+        "b1385aa7-6ce6-5519-cfd3-06664117652g"
+      ],
+      "settings": {
+        "subheading": "Berri Blog",
+        "title": "POPULAR ARTICLES",
+        "show_author_name": false,
+        "show_dates": true,
+        "show_blog_images": true,
+        "imageSize": "square"
+      }
     }
   },
   "order": [
@@ -320,6 +344,7 @@
     "ea306eac-0406-4e3f-8ad1-061e9e0bcf38",
     "6e4fa6e0-a825-4955-9b9d-fa89f859a73b",
     "d6deeb0c-de4e-4e95-b876-06902910730e",
-    "13c7d833-7dbc-4d9a-bcb2-865c65ef1515"
+    "13c7d833-7dbc-4d9a-bcb2-865c65ef1515",
+    "f7e8d944-8ef5-4f2a-9d3c-07653010841f"
   ]
 }
