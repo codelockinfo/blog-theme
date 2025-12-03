@@ -511,7 +511,16 @@
       "image--image-with-text-overlay-1",
       "text--testimonials",
       "text--service-list"
-    ]
+    ],
+    "blocks": {
+      "6868439170666289573": {
+        "type": "shopify://apps/foxkit-sales-boost/blocks/foxkit-theme-helper/13f41957-6b79-47c1-99a2-e52431f06fff",
+        "disabled": false,
+        "settings": {
+          "enable_ajax_atc": true
+        }
+      }
+    }
   },
   "presets": {
     "Sweet": {
